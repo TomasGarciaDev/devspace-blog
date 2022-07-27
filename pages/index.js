@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import Post from '../components/Post';
 import { sortByDate } from '../utils'
 
-export default function Home({posts}) {
+export default function HomePage({posts}) {
   console.log(posts)
 
   return (
